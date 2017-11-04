@@ -18,6 +18,8 @@ docker run -v "$PWD":/usr/src/app -p "4000:4000" starefossen/github-pages
 
 After that you can look at you changes at: `http://0.0.0.0:4000/`
 
+_Note_: You may need to delete `Gemfile.lock` first, the Docker process will recreate a version it can work with.
+
 #### 4. Commit your changes
 _Bonus_: Choose a [good commit message](https://chris.beams.io/posts/git-commit/)
 
