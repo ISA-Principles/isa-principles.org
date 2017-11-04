@@ -3,7 +3,7 @@
 _Principles for Microservices_
 
 Find out more about ISA at <http://isa-principles.org>
-via Github Pages from this repository).
+(generated via GitHub Pages from this repository).
 
 # How to contribute?
 
@@ -18,10 +18,10 @@ docker run -v "$PWD":/usr/src/app -p "4000:4000" starefossen/github-pages
 
 After that you can look at you changes at: `http://0.0.0.0:4000/`
 
-#### 4. Commit you changes
+#### 4. Commit your changes
 _Bonus_: Choose a [good commit message](https://chris.beams.io/posts/git-commit/)
 
-#### 5. Open an pull-request
+#### 5. Open a pull-request
 Provide a good title and describe what you want to change and why.
 
 #### 6. Profit! Thanks for contributing :)
