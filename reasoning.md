@@ -6,7 +6,10 @@ description: Reasoning behind the Independent Systems Architecture (ISA) princip
 
 ## Introduction
 
-Each of the principles has a reasoning behind it:
+ISA (Independent Systems Architecture) is a collection of best practices.
+This page explains the reasoning behind each of the principles it comprises.
+
+## Reasoning
 
 1. *Modularization* has been recognized as an important tool for handling
      large and complex software systems for a very long time. Using
