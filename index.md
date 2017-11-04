@@ -11,7 +11,7 @@ experience in particular with microservices and
 [Self-contained Systems](http://scs-architecture.org) and the
 challenges faced in those projects.
 
-Far too often microservices are adopted but project fail to
+Far too often microservices are adopted but the projects then fail to
 succeed. This set of best practices ensures that common pitfalls are
 avoided and the promised benefits of microservices are achieved.
 
@@ -32,7 +32,7 @@ or maybe even a completely different approach.
 1. The system must be divided into *modules* that provide
     *interfaces*. Access to other modules is only possible through these
 	interfaces. Therefore modules must not directly depend on implementation details
-    of another module, e.g. the internal data representation in a database.
+    of other modules, e.g. the internal data representation in a database.
 	The rest of the principles define how
 	modules might be implemented, and how ISA differs from other
 	modularization approaches.
@@ -67,7 +67,7 @@ or maybe even a completely different approach.
    
 8. *Standards* for operations, integration, or communication should be
    enforced on the interface level. For example, the communication protocol
-   and data structures could be be standardized to a specific JSON payload format
+   and data structures could be standardized to a specific JSON payload format
    exchanged using HTTP, but
    every module should be free to use a different REST library/implementation.
    
@@ -80,6 +80,6 @@ or maybe even a completely different approach.
 ## Presentation
 
 You can download a [presentation](./slidedeck/ISA.pptx) about
-ISA. It is copyrighted under a Creative Commons
-Attribution-ShareAlike 3.0 Unported License so you can use it for your
+ISA. It is licensed under a [Creative Commons
+Attribution-ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-sa/3.0/) so you can use it for your
 purposes.
