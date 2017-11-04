@@ -50,7 +50,7 @@ least some of the ISA ideas for these scenarios.
 
 ### How can I use this document?
 
-This document is licensed under a Creative Commons license,
+This document is licensed under a Creative Commons Attribution-ShareAlike license,
 i.e. you can essentially use it as you see fit, as long as you
 include proper attribution and share your modifications under
 the same license. We explicitly encourage you to recommend,
