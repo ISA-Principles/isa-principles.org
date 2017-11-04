@@ -13,7 +13,7 @@ additional principles that are not part of ISA and why they were left out.
 ## Non-Principles
 
 * ISA defines the technical aspects of modules. How the system is
-  split into modules is beyond this
+  split into modules is beyond the scope of this
   website. [Domain-driven Design](https://en.wikipedia.org/wiki/Domain-driven_design)
   and
   [Bounded Context](https://en.wikipedia.org/wiki/Domain-driven_design#Bounded_context)
@@ -28,15 +28,15 @@ additional principles that are not part of ISA and why they were left out.
   teams. [Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law)
   states that software architecture reflects the social boundaries in
   the team so there is strong relation between the organization and
-  the architecture. However, ISA work without adjusting the
-  organization so the idea is broader applicable in this way.
+  the architecture. However, ISA works without adjusting the
+  organization so the idea is more broadly applicable in this way.
 
 * The principles do not give a preference for communication protocols or
   operations technologies. The principles state principles, not
   concrete technological decisions.
   
-* The principles provide benefits like independent scalability, load
-  balancing and high availability. However, these are results of the
+* Following the principles provides benefits like independent scalability, load
+  balancing and high availability. However, these benefits are results of following the
   principles and not principles by themselves. So they are not
   explicitly mentioned.
   
