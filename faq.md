@@ -61,6 +61,7 @@ can find the repository on [GitHub](https://github.com/innoq/ISA).
 
 ### Can I provide feedback?
 
-Of course, please use [the comments](discussion.html) to
-share your thoughts. We welcome criticism as well as suggestions for
-improvement.
+Of course, please use [the comments](discussion.html) to share your
+thoughts. You can also submit pull request or issues to the [GitHub
+Project](https://github.com/ISA-Principles/isa-principles.org).  We
+welcome criticism as well as suggestions for improvement.
