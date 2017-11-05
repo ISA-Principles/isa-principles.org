@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "ISA - Independent Systems Architecture- FAQ"
+title: "ISA: Independent Systems Architecture - FAQ"
 description: Frequently asked questions (FAQ) about the Independent Systems Architecture (ISA)
 ---
 

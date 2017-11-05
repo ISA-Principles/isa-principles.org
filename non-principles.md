@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "ISA: Independent Systems Architecture: Non Principles"
+title: "ISA: Independent Systems Architecture - Non Principles"
 description: Independent Systems Architecture (ISA) leaves some principles out - why?
 ---
 
