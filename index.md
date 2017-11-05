@@ -76,6 +76,9 @@ or maybe even a completely different approach.
    unexpected shutdowns without losing data or state. It must be
    possible to move them to other runtime environments (hosts,
    networks, config etc).
+   
+NOTE: We created a dedicated page to express the [reasoning behind these principles](/reasoning.html).
+
 
 ## Presentation
 
