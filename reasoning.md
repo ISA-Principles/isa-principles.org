@@ -11,8 +11,9 @@ Each of the principles has a reasoning behind it:
 1. *Modularization* has been recognized as an important tool for handling
      large and complex software systems for a very long time. Using
      the term "module" reuses these ideas. Modules imply e.g. high
-     [cohesion](https://en.wikipedia.org/wiki/Cohesion_%28computer_science%29) -
-     low coupling as goal of the architecture or the
+     [cohesion](https://en.wikipedia.org/wiki/Cohesion_%28computer_science%29) and
+     low [coupling](https://en.wikipedia.org/wiki/Coupling_(computer_programming))
+     as goals of the architecture, or the
      [single responsibility principle](https://en.wikipedia.org/wiki/Single_responsibility_principle). Also
      [information hiding](https://en.wikipedia.org/wiki/Information_hiding)
      implies that the data and the database must not be accessed by
@@ -69,7 +70,7 @@ Each of the principles has a reasoning behind it:
    Authorization is so closely
    linked to the domain logic that it should be done in each module.
    Therefore it is up to each module to allow access or specific
-   actions.
+   actions.  
    For communication as well as integration the principles only take into
    account the communication among modules inside the
    system. Communication to other systems might be done with a
@@ -92,8 +93,8 @@ Each of the principles has a reasoning behind it:
    passes the integration test stage. This is an example of a
    dependency bottleneck in the deployment pipelines: The other pipelines cannot
    continue until the module passes the stage. This has to be avoided
-   e.g. by using consumer-driven contract tests and mocks to tests the
-   interfaces  between modules or by separated integration test
+   e.g. by using consumer-driven contract tests and mocks to test the
+   interfaces  between modules, or by separated integration test
    stages.
    
 7. Each module is a separate process, container, or virtual machine
