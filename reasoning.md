@@ -27,9 +27,9 @@ This page explains the reasoning behind each of the principles it comprises.
    machines* allows e.g. each module to be implemented in a different
    programming language on a different platform. Technical decisions
    are therefore specific to just one module.  
-   Also this kind of separation means that each modul can crash
+   Also this kind of separation means that each module can crash
    without any of the other modules crashing. This would be different
-   if all module were just part of one process. This benefits
+   if all modules were just part of one process. This benefits
    resilience (see below).
 
 3. The architecture proposed here allows for a lot of
