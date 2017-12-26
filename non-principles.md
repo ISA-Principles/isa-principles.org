@@ -31,8 +31,8 @@ additional principles that are not part of ISA and why they were left out.
   the architecture. However, ISA works without adjusting the
   organization so the idea is more broadly applicable in this way.
 
-* The principles do not give a preference for communication protocols or
-  operations technologies. The principles state principles, not
+* ISA does not give a preference for communication protocols or
+  operations technologies. It states general principles, not
   concrete technological decisions.
   
 * Following the principles provides benefits like independent scalability, load
