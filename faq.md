@@ -26,7 +26,7 @@ have been working in many projects.
 specific type of systems because each SCS and therefore the system has
 to have a UI. Also SCS should be integrated asynchronously or on the
 UI level. ISA is broader because a system that just provides an API
-and no UI can be a ISA, but not an SCS. Also ISA does recommend a specific
+and no UI can be a ISA, but not an SCS. Also ISA does not recommend a specific
 type of integration.
 
 ISA covers topics like operations and micro / macro architecture that
