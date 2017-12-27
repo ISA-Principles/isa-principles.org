@@ -22,7 +22,7 @@ have been working in many projects.
 
 ### How is ISA different from SCS (Self-contained Systems)?
 
-[Self-contained Systems](http://scs-architecture-org) define a
+[Self-contained Systems](http://scs-architecture.org) define a
 specific type of systems because each SCS and therefore the system has
 to have a UI. Also SCS should be integrated asynchronously or on the
 UI level. ISA is broader because a system that just provides an API
