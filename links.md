@@ -13,3 +13,5 @@ description: Links to further information about Independent Systems Architecture
 * [Presentation](./slidedeck/ISA.pptx)
 
 * [German Blog at heise Developer](https://www.heise.de/developer/artikel/Independent-System-Architecture-Prinzipien-fuer-Microservices-3889160.html)
+
+* [Podcast](https://www.innoq.com/en/podcast/045-isa/)
