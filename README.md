@@ -2,7 +2,7 @@
 
 _Principles for Microservices_
 
-Find out more about ISA at <http://isa-principles.org>
+Find out more about ISA at <https://isa-principles.org>
 (generated via GitHub Pages from this repository).
 
 # How to contribute?
