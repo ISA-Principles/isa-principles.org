@@ -47,14 +47,18 @@ or maybe even a completely different approach.
    - The *Micro Architecture* considers decisions which may be taken
    individually for each module.
    
-4. The choice of *integration* options must be limited and standardized
+4. The choice of *integration and communication* options must be limited and standardized
    for the system. The integration might be done with synchronous or
    asynchronous communication, and/or on the UI level.
-   
-5. *Communication* must use a limited set of protocols like RESTful HTTP or
-   messaging. Also metadata, e.g. for authorization, must be
-   standardized. It might make sense to use just one protocol for each
+   Communication must use a limited set of protocols like RESTful HTTP or
+   messaging.
+   It might make sense to use just one protocol for each
    integration option.
+   
+5. Metadata, e.g. for *authorization*, must be
+   standardized. Otherwise the user would need to log in to each microservices.
+   This might be done using e.g. a token that is transferred with each call / request.
+   Other examples might 
    
 6. Each module must have its own *independent Continuous Delivery
    pipeline*. Tests are part of the Continuous Delivery pipeline so the
