@@ -15,6 +15,8 @@ Far too often microservices are adopted but the projects then fail to
 succeed. This set of best practices ensures that common pitfalls are
 avoided and the promised benefits of microservices are achieved.
 
+However, ISA principles don't always apply - see the [FAQ](https://isa-principles.org/faq.html#is-isa-finally-the-silver-bullet-we-have-all-been-waiting-for) for details.
+
 <script async class="speakerdeck-embed" data-id="bfc13f5bca9141668ff6fbe603137216" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 ## Terms
