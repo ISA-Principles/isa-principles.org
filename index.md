@@ -58,7 +58,7 @@ or maybe even a completely different approach.
 5. Metadata, e.g. for *authorization*, must be
    standardized. Otherwise the user would need to log in to each microservices.
    This might be done using e.g. a token that is transferred with each call / request.
-   Other examples might 
+   Other examples might include a trace id to track a call and its dependent calls through the microservices.
    
 6. Each module must have its own *independent Continuous Delivery
    pipeline*. Tests are part of the Continuous Delivery pipeline so the
