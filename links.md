@@ -17,3 +17,5 @@ description: Links to further information about Independent Systems Architecture
 * [Podcast](https://www.innoq.com/en/podcast/045-isa/)
 
 * [Presentation by Nane Kratzke](https://www.slideshare.net/i21aneka/we-have-the-bricks-to-build-cloudnative-cathedrals-but-do-we-have-the-mortar)
+
+* [German article at INNOQ](https://www.innoq.com/de/articles/2018/09/prinzipien-fuer-unabhaengige-systeme)

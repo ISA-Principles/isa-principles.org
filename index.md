@@ -15,6 +15,8 @@ Far too often microservices are adopted but the projects then fail to
 succeed. This set of best practices ensures that common pitfalls are
 avoided and the promised benefits of microservices are achieved.
 
+However, ISA principles don't always apply - see the [FAQ](https://isa-principles.org/faq.html#is-isa-finally-the-silver-bullet-we-have-all-been-waiting-for) for details.
+
 <script async class="speakerdeck-embed" data-id="bfc13f5bca9141668ff6fbe603137216" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 ## Terms
@@ -37,16 +39,17 @@ or maybe even a completely different approach.
 	modules might be implemented, and how ISA differs from other
 	modularization approaches.
    
-2. Modules must be implemented as *separate processes, containers, or
-    virtual machines* to maximize independence.
-
-3. The system must have two clearly separated levels of architectural decisions:
+2. The system must have two clearly separated levels of architectural decisions:
    - The *Macro Architecture* comprises decisions that cover all
    modules. All further principles are part of the Macro
    Architecture. 
    - The *Micro Architecture* considers decisions which may be taken
    individually for each module.
    
+3. Modules must be implemented as *separate processes, containers, or
+    virtual machines* to maximize independence and enable a separation between
+    Macro and Micro Architecture.
+
 4. The choice of *integration and communication* options must be limited and standardized
    for the system. The integration might be done with synchronous or
    asynchronous communication, and/or on the UI level.
