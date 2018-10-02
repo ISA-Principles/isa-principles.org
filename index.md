@@ -39,16 +39,17 @@ or maybe even a completely different approach.
 	modules might be implemented, and how ISA differs from other
 	modularization approaches.
    
-2. Modules must be implemented as *separate processes, containers, or
-    virtual machines* to maximize independence.
-
-3. The system must have two clearly separated levels of architectural decisions:
+2. The system must have two clearly separated levels of architectural decisions:
    - The *Macro Architecture* comprises decisions that cover all
    modules. All further principles are part of the Macro
    Architecture. 
    - The *Micro Architecture* considers decisions which may be taken
    individually for each module.
    
+3. Modules must be implemented as *separate processes, containers, or
+    virtual machines* to maximize independence and enable a separation between
+    Macro and Micro Architecture.
+
 4. The choice of *integration* options must be limited and standardized
    for the system. The integration might be done with synchronous or
    asynchronous communication, and/or on the UI level.
