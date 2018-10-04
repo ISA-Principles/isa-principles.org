@@ -58,7 +58,7 @@ or maybe even a completely different approach.
    It might make sense to use just one protocol for each
    integration option.
    
-5. Metadata, e.g. for *authorization*, must be
+5. Metadata, e.g. for *authentication*, must be
    standardized. Otherwise the user would need to log in to each microservices.
    This might be done using e.g. a token that is transferred with each call / request.
    Other examples might include a trace id to track a call and its dependent calls through the microservices.
