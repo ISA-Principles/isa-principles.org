@@ -23,16 +23,7 @@ This page explains the reasoning behind each of the principles it comprises.
      any other module. So there is no need to state these ideas
      explicitly.
 
-2. Separating the modules into *processes, containers, or virtual
-   machines* allows e.g. each module to be implemented in a different
-   programming language on a different platform. Technical decisions
-   are therefore specific to just one module.  
-   Also this kind of separation means that each module can crash
-   without any of the other modules crashing. This would be different
-   if all modules were just part of one process. This benefits
-   resilience (see below).
-
-3. The architecture proposed here allows for a lot of
+2. The architecture proposed here allows for a lot of
    freedom. However, all the modules still need to appear as one. 
    So some decisions need to be done on the level of the Macro
    Architecture. Once defined,
@@ -47,6 +38,15 @@ This page explains the reasoning behind each of the principles it comprises.
    Architecture influences all modules and is therefore harder to
    change. So it should not be changed too frequently.
 
+2. Separating the modules into *processes, containers, or virtual
+   machines* allows e.g. each module to be implemented in a different
+   programming language on a different platform. Technical decisions
+   are therefore specific to just one module.  
+   Also this kind of separation means that each module can crash
+   without any of the other modules crashing. This would be different
+   if all modules were just part of one process. This benefits
+   resilience (see below).
+
 4. Modules are separated into processes (see 2). Therefore local
    method calls cannot be used to integrate them but a different means
    of *integration* is needed.  
@@ -59,21 +59,11 @@ This page explains the reasoning behind each of the principles it comprises.
    requires two different types of integration. Also there might be
    different cases in the same system where e.g. synchronous and
    asynchronous integration might be useful.
-   
-5. *Communication* defines the low-level protocol that modules use to
+   *Communication* defines the low-level protocol that modules use to
    interact. Of course there is a relation between communication and
    integration. But e.g. REST allows for synchronous as well as
    asynchronous communication. Just as with integration, one option
    for communication might not be sufficient.
-   Users should not have to log in to each module but
-   rather log in once to the whole system.
-   So transferring authentication information including the
-   principals and their roles is
-   part of the standardization, too. 
-   Authorization is so closely
-   linked to the domain logic that it should be done in each module.
-   Therefore it is up to each module to allow access or specific
-   actions.  
    For communication as well as integration the principles only take into
    account the communication among modules inside the
    system. Communication to other systems might be done with a
@@ -83,7 +73,21 @@ This page explains the reasoning behind each of the principles it comprises.
    interface of the system is also different from an architectural
    point of view: It is harder to change because changes will
    influence other systems.
-   
+
+5. Users should not have to log in to each module but
+   rather log in once to the whole system.
+   So transferring *authentication* information including the
+   principals and their roles is
+   part of the standardization, too. 
+   Authorization is so closely
+   linked to the domain logic that it should be done in each module.
+   Therefore it is up to each module to allow access or specific
+   actions.
+   Also other *metadata* besides authentication information might also
+   need to be standardized. For example, to trace calls between
+   microservices, a unique id for a call and all dependent calls must
+   be transfered.
+
 6. Real independence is only possible if each module can be *deployed
    by itself*. The architecture is just a prerequisite. In other
    words: If the architecture allows independent modules but they
