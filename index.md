@@ -63,8 +63,8 @@ or maybe even a completely different approach.
    This might be done using e.g. a token that is transferred with each call / request.
    Other examples might include a trace id to track a call and its dependent calls through the microservices.
    
-6. Each module must have its own *independent Continuous Delivery
-   pipeline*. Tests are part of the Continuous Delivery pipeline so the
+6. Each module must have its own *independent continuous delivery
+   pipeline*. Tests are part of the continuous delivery pipeline so the
    modules must be tested independently.
    
 7. *Operations* should be standardized. This includes configuration, 
