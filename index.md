@@ -19,6 +19,8 @@ However, ISA principles don't always apply - see the [FAQ](https://isa-principle
 
 <script async class="speakerdeck-embed" data-id="bfc13f5bca9141668ff6fbe603137216" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
+[Speaker Deck](https://speakerdeck.com/isaprinciples/isa-principles) [PowerPoint](./slidedeck/ISA.pptx)
+
 ## Terms
 
 The principles use *"must"* for
