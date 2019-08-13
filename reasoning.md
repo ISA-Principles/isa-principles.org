@@ -62,7 +62,7 @@ This page explains the reasoning behind each of the principles it comprises.
    *Communication* defines the low-level protocol that modules use to
    interact. Of course there is a relation between communication and
    integration. But e.g. REST allows for synchronous as well as
-   asynchronous communication. Just as with integration, one option
+   asynchronous integration. Just as with integration, one option
    for communication might not be sufficient.
    For communication as well as integration the principles only take into
    account the communication among modules inside the
