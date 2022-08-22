@@ -10,15 +10,15 @@ Find out more about ISA at <https://isa-principles.org>
 #### 1. Fork this repository
 #### 2. Make a feature branch on your fork
 #### 3. Make your changes
-You can setup a local [development environment](https://hub.docker.com/r/starefossen/github-pages/) by running the following command in your locally cloned repository:
+You can setup a local development environment by running the following command in your locally cloned repository:
+
 
 ```
-docker run -v "$PWD":/usr/src/app -p "4000:4000" starefossen/github-pages
+./server.sh
 ```
 
-After that you can look at you changes at: `http://0.0.0.0:4000/`
-
-_Note_: You may need to delete `Gemfile.lock` first, the Docker process will recreate a version it can work with.
+You will need a local Ruby installation for that. 
+After that you can look at you changes at: `http://127.0.0.1:4000/`
 
 #### 4. Commit your changes
 _Bonus_: Choose a [good commit message](https://chris.beams.io/posts/git-commit/)
