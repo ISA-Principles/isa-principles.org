@@ -17,9 +17,36 @@ avoided and the promised benefits of microservices are achieved.
 
 However, ISA principles don't always apply - see the [FAQ](https://isa-principles.org/faq.html#is-isa-finally-the-silver-bullet-we-have-all-been-waiting-for) for details.
 
-<script async class="speakerdeck-embed" data-id="bfc13f5bca9141668ff6fbe603137216" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<touch-detection>
+	<div class="slider" role="region" aria-label="Slides" tabindex="0" aria-describedby="slider-instructions">
+		<ul class="slider__all">
+			{% for y in (1..33) %}
+			<li class="slider__slide">
+				<figure class="slider__page">
+					<img src="https://res.cloudinary.com/innoq/image/upload/w_960,dpr_2.0,q_auto/pg_{{y}}/v1661329003/isa-principles.org/ISA_gtirn4.webp" style="max-width: 100%;" />
+					<figcaption class="page__number__box">
+						<svg class="page__number" viewBox="0 0 45 30" version="1.1" baseProfile="full" xmlns="https://www.w3.org/2000/svg">
+							<text x="50%" y="55%" dominant-baseline="middle" text-anchor="middle">{{y}}/33</text>
+						</svg>
+					</figcaption>
+				</figure>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+	<div class="slider__instructions">
+		<p class="instructions--touch">Swipe left to see more slides</p>
+		<div class="instructions__no-touch">
+			<p class="instructions--hover-and-focus">Scroll or use arrow keys to see more slides</p>
+			<p class="instructions--hover">Scroll to see more slides</p>
+			<p class="instructions--focus">Use arrow keys to see more slides</p>
+		</div>
+	</div>
+</touch-detection>
 
-[Speaker Deck](https://speakerdeck.com/isaprinciples/isa-principles) [PowerPoint](./slidedeck/ISA.pptx)
+* [Speaker Deck](https://speakerdeck.com/isaprinciples/isa-principles) 
+* [PowerPoint](./slidedeck/ISA.pptx)
+* [PDF](https://res.cloudinary.com/innoq/image/upload/v1661329003/isa-principles.org/ISA_gtirn4.pdf)
 
 ## Terms
 
