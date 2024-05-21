@@ -6,16 +6,8 @@ updates:
       interval: "monthly"
     allow:
       - dependency-type: "all"
-    groups:
-      bundler:
-        patterns:
-          - "*"
 
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "weekly"
-    groups:
-      actions:
-        patterns:
-          - "*"
